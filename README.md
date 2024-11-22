@@ -16,7 +16,11 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 ## Program:
 ```
 /*
-
+Developed by: mirushika . t
+RegisterNumber:  24901203
+*/
+```
+```
 import pandas as pd
 import numpy as np
 data=pd.read_csv("Placement_Data.csv")
@@ -64,11 +68,8 @@ print("Actual:\n",y.values)
 xnew=np.array([[0,87,0,95,0,2,78,2,0,0,1,0]])
 y_prednew=predict(theta,xnew)
 print("Predicted Result:",y_prednew)
-Program to implement the the Logistic Regression Using Gradient Descent.
-Developed by: mirushika . t
-RegisterNumber:  24901203
-*/
-```
+Program to implement the the Logistic Regression Using Gradient Descent ```
+
 
 ## Output:
 ![logistic regression using gradient descent](sam.png)
