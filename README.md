@@ -8,11 +8,14 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+```
+1.Import necessary libraries.
+2.create a function loss(theta, X, y) to calculate the binary cross-entropy loss:
+        Loss=−∑[y⋅log(h)+(1−y)⋅log(1−h)]
+3.Calculate the accuracy using:
+        Accuracy= Total Number of Predictions/Number of Correct Predictions
+4.Print the predicted result. 
+```
 ## Program:
 ```
 /*
@@ -73,7 +76,7 @@ Program to implement the the Logistic Regression Using Gradient Descent ```
 
 ## Output:
 ![logistic regression using gradient descent](sam.png)
-
+```
  	gender 	ssc_p 	ssc_b 	hsc_p 	hsc_b 	hsc_s 	degree_p 	degree_t 	workex 	etest_p 	specialisation 	mba_p 	status
 0 	M 	67.00 	Others 	91.00 	Others 	Commerce 	58.00 	Sci&Tech 	No 	55.0 	Mkt&HR 	58.80 	Placed
 1 	M 	79.33 	Central 	78.33 	Others 	Science 	77.48 	Sci&Tech 	Yes 	86.5 	Mkt&Fin 	66.28 	Placed
@@ -105,7 +108,7 @@ Actual:
  1 0 1 1 1 1 1 0 1 1 0 0 1 0 1 1 1 0 1 0 0 0 0 1 1 0 1 0 1 1 1 0 1 0 0 1 0
  1 0 1 0 0 0 1 1 1 0 1 1 1 0 1 1 0 1 1 1 1 0 1 0 1 1 1 1 1 0]
 Predicted Result: [1]
-
+```
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
 
